@@ -4,22 +4,22 @@ cask "atk-jira" do
 
   on_macos do
     on_intel do
-      sha256 "64945d75a3486185aea8464f34a12e2f02bb240dd3fc080d89b3b29064d38321"
+      sha256 "ed1c21c218fe220c0e037b0fa26cc218f8827e6f96eccbd8c21e0f9059bac947"
       url "https://github.com/wohsj110/atlassian_cli/releases/download/v#{version}/atk-jira_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "bfa140d15c0e8b173dfe0b29e25751e02a96baa88c562d5f0b732444628aa866"
+      sha256 "db46c5bab6816b7f674bae0a577913a26a8b44867de1a1051f328247a4472aad"
       url "https://github.com/wohsj110/atlassian_cli/releases/download/v#{version}/atk-jira_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "74afa13f50ea34858e35d47401dace8a414117a4fd1008b76f53c2c75a99d175"
+      sha256 "99847b51bff6ac680550623126e4ac24bfe9376544db1ad015896940884d6eda"
       url "https://github.com/wohsj110/atlassian_cli/releases/download/v#{version}/atk-jira_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "88ee8aad2c214f81ae4cb9f4c521f13b5eac2ceafce042b7e6f44b89115e314e"
+      sha256 "bad710020f639827bdfa5b5a774276c75ea1672edcba26b392c74e019196024a"
       url "https://github.com/wohsj110/atlassian_cli/releases/download/v#{version}/atk-jira_#{version}_linux_arm64.tar.gz"
     end
   end
