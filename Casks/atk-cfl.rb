@@ -4,22 +4,22 @@ cask "atk-cfl" do
 
   on_macos do
     on_intel do
-      sha256 "ab7b73c6c6483c98aa63d0857296985b002e0893839535bceff3e771b3107f97"
+      sha256 "d52b9e08bebff1db58e9140d42b035d47eb7548ea4a4468daa430fe10ae47542"
       url "https://github.com/wohsj110/atlassian_cli/releases/download/v#{version}/atk-cfl_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "368df02e7c2c22236a4264a061a9c1ed7f959757455cc7409833373a80371362"
+      sha256 "fac0af2434e5cb6c8b720297d29ac223499531aa58a25d2fe47bd2d8c6808de9"
       url "https://github.com/wohsj110/atlassian_cli/releases/download/v#{version}/atk-cfl_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "876f906f101e4f0b0d4893d7d55a1906d4104595ea6d98fee2c40fae6811803c"
+      sha256 "2bfba18b529349b3fc35935197b4fcc001cf5129acdcf0a9e475dda59a60c8a5"
       url "https://github.com/wohsj110/atlassian_cli/releases/download/v#{version}/atk-cfl_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "1d434650096dfee061b5f99386e5ecd4eda7f6fc3ce591a1ef077a76103548f9"
+      sha256 "5dcb4f30b8e16c9251d584af3a90639af9167758bee287ce5962ac531c0eb72c"
       url "https://github.com/wohsj110/atlassian_cli/releases/download/v#{version}/atk-cfl_#{version}_linux_arm64.tar.gz"
     end
   end
